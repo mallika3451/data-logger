@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>new form</title></head>
+<body>
+<form action="addcol.php" method="POST">
+<table width="15%" bgcolor="skyblue"   align="center">
+<tr><h2><center>Enter topic name</h2></center></h2></tr>
+<tr>
+<td><h3>Topic:</h3></td>
+<td><input type="text" oninvalid="alert('numeric values are not allowed and you must fill out the form');" name="new" pattern="[a-zA-Z]{1,25}" placeholder="enter topic name" required></td></tr>
+<tr>
+    <td><input type="reset" value="Reset"></td>
+<td><input type="submit" value="submit"></td>
+</tr>
+</table></form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> Registration Form </title>
+</head>
+<body>
+<center><h2> Registration Form </h2></center>
+<form method="post" action='ins.php'> 
+<table align="center" width="30%" bgcolor="lightgreen" cellpadding = "10">
+   <tr>
+      <td> Name</td>
+      <td><input type="text" oninvalid="alert('numeric values are not allowed and you must fill out the form');" name="name" pattern="[a-zA-Z]{1,25}" required>
+      </td>
+      </tr>
+   
+      <td>Mobile Number</td>
+      <td>
+      <input type="number" name="number" required>  
+      </td>
+      </tr>
+   <tr>
+      <td>Userid</td>
+      <td><input type="text" name="uid" required>
+      </td>
+      </tr>
+   <tr> 
+      <td>Password:</td>
+      <td><input type="password" name="password" required></td>
+      </tr>
+   <tr>
+      <td>Email ID</td>
+      <td><input type="email" name="email" required></td>
+      </tr>
+   <tr><td>
+      <center>
+      <input type="submit" value="submit"></td>
+      <td><input type="reset" value="reset">
+     </center>
+      </td>
+      </tr>
+      </table>
+      </form>
+      </body>
+      </html>
